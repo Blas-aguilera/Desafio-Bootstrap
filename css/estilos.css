@@ -1,0 +1,138 @@
+.navbar-collapse {
+    justify-content: flex-end;   
+}
+.bg-yo{
+    background-color: rgb(137, 175, 224);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.logo-yo{
+    width: 140px;
+    margin-left: 20px;
+}
+.logo-yo img{
+    height: 80px;
+}
+/* ---------------------------------- MAIN ---------------------------------- */
+.main{
+    min-height: 100vh;
+}
+.slide{
+    margin: 10px;
+}
+.slide img{
+    height: 65vh;
+    width: auto;
+}
+.main-texto h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main-texto p{
+    text-align: justify;
+    padding: 0 20px 40px 20px;
+    margin-bottom: 10px;
+
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+/* ---------------------------- MAIN ACTIVIDADES ---------------------------- */
+.main-actividades{
+    background-color: #f0f8ff;
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+}
+
+.actividades{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    justify-items: center;
+    margin: 5px;
+    border: solid 2px #000;
+    padding: 2px;
+}
+.actividades img{
+    width: 200px;
+    padding-top: 9px;
+}
+.actividades-texto{
+    padding: 10px;
+    text-align: justify;
+}
+.actividades-texto h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.titulo{
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------------------------------- FOOTER --------------------------------- */
+.footer{
+    width: 100%;
+    min-height: 10px;
+    background-color: rgb(70, 67, 67);
+    color: #fff;
+}
+.pie-contenido{
+    display: grid;
+    height: 90%;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-template-areas: 
+    "sitios contacto"
+    "copyright copyright ";
+}
+.sitios{
+    display: grid;
+    justify-content: center;
+    grid-area: sitios;
+    padding: 10px;
+}
+.sitios p{
+    font-weight: 600;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.contacto{
+    display: grid;
+    grid-row: initial;
+    justify-content: center;
+    grid-area: contacto;
+}
+.contacto a{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    margin-top: 10px;
+    background-color:  rgba(100, 97, 97, 0.486);
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: copyright;
+}
